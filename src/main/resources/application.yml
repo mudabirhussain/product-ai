@@ -15,3 +15,7 @@ spring:
     vectorstore:
       pgvector:
         initialize-schema: false
+
+  docker:
+    compose:
+      lifecycle-management: start_and_stop
